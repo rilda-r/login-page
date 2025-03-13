@@ -1,5 +1,6 @@
 # login-page
- 
+xampp control panel
+local host
 # program to permit registered users login into a system
 #create a database and a table - 'employee_login'  
 '''run the program'''
