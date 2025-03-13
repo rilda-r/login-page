@@ -1,5 +1,5 @@
 # login-page
- 
+#all three files are required to run the program 
 # program to permit registered users login into a system
 #create a database and a table - 'employee_login'  
 '''run the program'''
