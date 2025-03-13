@@ -13,6 +13,9 @@ run = sqlpage.connecting()
 run.q1.execute('create table employee_login(email varchar(50), passwd varchar(50))')
 data = [('abc@gmail.com','abc123'),('def@gmail.com','def456'),('ghi@gmail.com','ghi789')]
 run.q1.executemany("insert into employee_login(email,passwd) values(%s,%s)",data)
+
+
+
 run.connection.commit()
 
 
@@ -42,7 +45,7 @@ class process1:
                 print('registered')
                 exit()
 
-        run.q1.execute('drop table employee_login')    
+        # run.q1.execute('drop table employee_login')    
         exit()
 
 obj1 = process1()
